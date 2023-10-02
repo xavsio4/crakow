@@ -1,7 +1,8 @@
 <template>
   <div>
     <button @click="play()">sb</button>
-    <audio id="div1" src="blank.mp4" muted="false" playsinline="true"></audio>
+    <audio id="div1" src="blank.mp4" autoplay loop></audio>
+    <embed src="blank.mp4" loop="true" autostart="true" width="2" height="0" />
   </div>
 </template>
 <script setup>
